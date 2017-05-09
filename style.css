@@ -1,0 +1,87 @@
+header {
+  align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+body {
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  background-color: #FFFFFF;
+  color: #212121;
+  align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main h2, h3 {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main a {
+  color: #757575;
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+main a:hover {
+  color: #388E3C;
+}
+
+table {
+  width: 800px;
+  color: #212121;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+tr {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #212121;
+}
+
+footer {
+  max-width: 800px;
+  align: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer img {
+  max-width: 64px;
+  margin: 2px;
+  margin-top: 10px;
+  transition: 0.2s;
+}
+
+footer img:hover {
+  opacity: 0.5;
+}
+
+.dark-primary-color    { background: #388E3C; }
+.default-primary-color { background: #4CAF50; }
+.light-primary-color   { background: #C8E6C9; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #CDDC39; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
